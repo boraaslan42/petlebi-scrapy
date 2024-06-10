@@ -4,7 +4,7 @@ import json
 
 def insert_product(product):
     connection = mysql.connector.connect(
-        host="localhost", user="root", password="boraaslan", database="take2"
+        host="localhost", user="root", password="password", database="db"
     )
 
     cursor = connection.cursor()
